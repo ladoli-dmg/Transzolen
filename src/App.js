@@ -9,9 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <HomeBanner/>
-        <div className="divider" />
+        {/* <div className="divider" />
         <AboutUsSection/>
-        <div className="divider" />
+        <div className="divider" /> */}
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

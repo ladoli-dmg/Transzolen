@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import banner from '../../Assets/header.png';
-import logo from '../../Assets/logo.png';
+import logo from '../../Assets/rawLogo.png';
 import { map } from 'lodash';
 import './HomeBanner.css';
 
@@ -31,7 +31,7 @@ export default class HomeBanner extends Component {
                     </div>
                 </div>
                 <div className="homebannerContent">
-                        <div style={{textAlign: 'left'}}>
+                    <div className="pitchContainer">
                             <div className="homebannerPitchTitle">
                                 Clarity in your Cannabis
                             </div>
@@ -39,7 +39,6 @@ export default class HomeBanner extends Component {
                                 Tranzolen is all about providing sustainable and responsible medical cannabis.
                             </div>
                         </div>
-                        
                 </div>
             </div>
         )
