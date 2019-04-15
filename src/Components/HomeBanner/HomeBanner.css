@@ -1,0 +1,81 @@
+.homebannerContainer{
+    position: relative;
+    min-height: 100vh;
+    min-width: calc(100vw -15px);
+    max-height: 100vh;
+    max-width: calc(100vw -15px);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.homebannerBackground{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .9;
+    min-height: 100vh;
+    min-width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    z-index: 0;
+}
+
+.homebannerMenu{
+    background-color: rgba(20,20,50, .3);
+    width: calc(100% - 80px);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.homeBannerMenuLink{
+    font-size: 25px;
+}
+
+.homebannerMenuLinksContainer{
+    display: flex;
+    flex: 5;
+    justify-content: space-between;
+}
+
+.homebannerLogoContainer{
+    text-align: left;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    /* color: #009aae; */
+    /* color: rgb(181, 209, 251); */
+    color: rgba(0, 224, 0, .9);
+}
+
+.homebannerLogo{
+    height: 70px;
+    width: 70px;
+    margin: 0px 20px;
+}
+
+.homebannerContent{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+    padding: 40px;
+    color: white;
+}
+
+.homebannerPitchTitle{
+    font-size: 70px;
+    padding: 15px 0px;
+}
+
+.homebannerPitchBody{
+    font-size: 25px;
+    padding-left: 40px;
+}
