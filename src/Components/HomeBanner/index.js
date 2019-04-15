@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import banner from '../../Assets/header.png';
+import banner from '../../Assets/greenhouse.png';
 import logo from '../../Assets/logo.png';
 import { map } from 'lodash';
 import './HomeBanner.css';
@@ -31,7 +31,7 @@ export default class HomeBanner extends Component {
                     </div>
                 </div>
                 <div className="homebannerContent">
-                        <div style={{textAlign: 'left'}}>
+                        <div className="pitchContainer">
                             <div className="homebannerPitchTitle">
                                 Clarity in your Cannabis
                             </div>

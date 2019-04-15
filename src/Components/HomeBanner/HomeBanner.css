@@ -23,7 +23,7 @@
 }
 
 .homebannerMenu{
-    background-color: rgba(20,20,50, .3);
+    background-color: rgba(5, 55, 55, .8);
     width: calc(100% - 80px);
     padding: 20px 40px;
     display: flex;
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     flex: 1;
     padding: 40px;
@@ -78,4 +78,11 @@
 .homebannerPitchBody{
     font-size: 25px;
     padding-left: 40px;
+}
+
+.pitchContainer{
+    text-align: left;
+    background-color: rgba(100, 124, 0, .7);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
