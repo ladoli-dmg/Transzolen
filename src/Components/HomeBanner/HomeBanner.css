@@ -86,3 +86,68 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.homebannerContentMenuBar{
+    display: none;
+}
+
+@media (max-width: 1200px){
+    .homebannerMenuLinksContainer{
+        display: none;
+    }
+
+    .homebannerContentMenuBar{
+        display: block;
+    }
+}
+
+@media (max-width: 600px){
+
+    .homebannerContent{
+        padding: 40px 10px;
+    }
+
+    .homebannerMenu{
+        background-color: rgba(5, 55, 55, .8);
+        width: calc(100% - 20px);
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+    
+
+    .homebannerLogo{
+        height: 60px;
+        width: 60px;
+        margin: 0px 5px;
+    }
+
+    .homebannerLogoContainer{
+        text-align: left;
+        flex: 3;
+        display: flex;
+        align-items: center;
+        font-size: 45px;
+        /* color: #009aae; */
+        /* color: rgb(181, 209, 251); */
+        color: rgba(0, 224, 0, .9);
+    }
+    
+
+    .homebannerPitchTitle{
+        font-size: 40px;
+        padding: 5px 0px;
+    }
+    
+    .homebannerPitchBody{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .pitchContainer{
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+}

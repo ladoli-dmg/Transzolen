@@ -3,6 +3,7 @@ import banner from '../../Assets/greenhouse.png';
 import logo from '../../Assets/logo.png';
 import { map } from 'lodash';
 import './HomeBanner.css';
+import { FaBars } from "react-icons/fa";
 
 export default class HomeBanner extends Component {
     render(){
@@ -29,6 +30,11 @@ export default class HomeBanner extends Component {
                             })
                         }
                     </div>
+                    <FaBars 
+                        className="homebannerContentMenuBar" 
+                        size={40}
+                        color="rgb(220,220,220)"
+                    />
                 </div>
                 <div className="homebannerContent">
                         <div className="pitchContainer">
